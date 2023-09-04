@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       #Add StepSec Harden Runner from here onwards
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 2
       - uses: actions/setup-go@v4
